@@ -26,18 +26,20 @@ function App() {
   return (
     <div className="container">
 
+    <h1>Qrgera</h1>
+
     <QRCode className="qrcode"
     value={link}
     />
 
       <input 
       className="input"
-      placeholder="Digite aqui..."
+      placeholder="Digite seu link aqui..."
       value={link}
       onChange={ (event) => handleQrcode(event)}
       />
 
-      <button className="button"><a href={qrcodeLink} download={`qrcode.png`}>Baixe aqui seu QrCode</a></button>
+      <button className="button"><a href={qrcodeLink} download={`qrcode.png`}>Clique aqui para baixar</a></button>
 
     </div>
   );
