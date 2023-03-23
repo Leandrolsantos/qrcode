@@ -12,27 +12,28 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: url('./img/quadro.png') center;
+  background: url('./img/fundoanimado2.gif');
   background-size: cover;
 }
 
 h1 {
   color: white;
-  background: linear-gradient(rgba(128, 128, 128, 0.756), rgba(255, 255, 255, 0.668), rgba(0, 0, 0, 0.564));
+  background: linear-gradient(rgba(0, 0, 0, 0.608), rgba(255, 255, 255, 0.912), rgba(0, 0, 0, 0.608));
   padding: 10px 10px;
   border: solid black;
+  border-width: 1px;
   border-radius: 12px;
-  box-shadow: 3px 2.5px 6px black;
+  box-shadow: 2px 1px 6px black;
   margin-bottom: 30px;
   font-size: 70px;
-  -webkit-text-stroke-width: 2.2px;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   text-shadow: 2px 2px 4.5px black;
-  transition: 1.2s ease-in;
+  transition: 2s ease-in-out;
 }
 
 h1:hover {
-  transform: scale(1.12);
+  transform: scale(1.02);
 }
 
 .qrcode {
@@ -42,24 +43,25 @@ h1:hover {
   border-width: 6px;
   padding: 10px;
   box-shadow: 5px 5px 10px black;
-  transition: 0.5s ease-in-out;
+  transition: 0.7s ease-in-out;
 }
 
 .qrcode:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
 }
 
 .input{
     height: 38px;
     border-radius: 8px;
-    max-width: 300px;
+    max-width: 260px;
     width: 100%;
-    margin: 24px 0;
-    padding: 8px;
+    margin: 26px 0;
+    padding: 9px;
     outline: none;
     border: 3px groove #b6b6b6;
     background: white;
     font-size: 18px;
+    box-shadow: 2px 2px 6px black;
 }
 
 .button {
@@ -69,13 +71,13 @@ h1:hover {
   border-width: 5px;
   border-radius: 20px;
   box-shadow: 2.5px 2.5px 4px rgba(0, 0, 0, 0.649);
-  background: rgba(255, 255, 255, 0.61);
+  background: rgba(255, 255, 255, 0.848);
   transition: 0.5s ease-in-out;
 }
 
 .button:hover {
   transform: scale(1.1);
-  background: rgba(31, 199, 255, 0.404);
+  background: rgba(31, 199, 255, 0.751);
 }
 
 a {
