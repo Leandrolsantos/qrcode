@@ -29,5 +29,5 @@ Conclui este projeto com muita satisfação do resultado e certeza do meu avanç
 
 - HTML
 - CSS
-- javaScript
+- JavaScript
 - React
