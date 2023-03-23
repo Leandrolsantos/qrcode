@@ -19,7 +19,7 @@ O foco é praticar a funcionablidades do React. Este é meu segundo projeto usan
 
 ### Desafio
 
-Sair da zona de conforto e trabalhar com React, pois ainda tenho pouca prática com este acervo de JS.
+Sair da zona de conforto e trabalhar com React, pois ainda tenho pouca prática com este acervo de JS. Gosto da complexidade que ele traz combinando a linguagem JavaScript com HTML e CSS.
 
 ### Conclusão
 
