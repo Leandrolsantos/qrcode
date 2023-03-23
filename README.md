@@ -7,7 +7,7 @@
 
 ![](./src/img/qrgerag.gif)
 
-Deploy do projeto: (Em Breve)
+Deploy do projeto: https://qrcode-leandrolsantos.vercel.app/
 
 ## Sobre
 
